@@ -39,6 +39,12 @@ const EXAMPLES: &[ExampleDesc] = &[
         webgpu: true,
     },
     ExampleDesc {
+        name: "model_load",
+        function: wgpu_examples::model_load::main,
+        webgl: true,
+        webgpu: true,
+    },
+    ExampleDesc {
         name: "hello_synchronization",
         function: wgpu_examples::hello_synchronization::main,
         webgl: false, // No canvas for WebGL
